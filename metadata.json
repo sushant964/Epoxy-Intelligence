@@ -1,0 +1,6 @@
+{
+  "name": "Epoxy Intelligence",
+  "description": "High-Performance Concrete Coatings",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

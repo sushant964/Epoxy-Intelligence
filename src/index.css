@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-orange: #e85d04;
+  --color-brand-orange-hover: #dc2f02;
+  --color-brand-charcoal: #121212;
+  --color-brand-concrete: #2a2a2a;
+  --color-brand-silver: #e0e0e0;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--color-brand-charcoal);
+    color: var(--color-brand-silver);
+  }
+  
+  body {
+    font-family: "Inter", system-ui, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Inter", system-ui, sans-serif;
+    letter-spacing: -0.02em;
+  }
+}
